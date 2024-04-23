@@ -2,6 +2,7 @@
     margin: 0;
     font-family: Arial;
     border: border-box;
+    background-color: #1b1b16;
 }
 .navbar{
     height: 60px;
@@ -75,13 +76,13 @@ border-radius: 5px;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    background-color: #748585;
+    background-color: #0d0e0e;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    color:#0f1111;
+    color:#e8e8e8;
 }
 .nav-search:hover{
-    border: 3px solid #748585;
+    border: 3px solid #1c1d1d;
 }
 /* box4 */
 .nav-signin{
@@ -103,7 +104,7 @@ font-size: 0.7rem;
 /* pannel */
 .pannel{
     height: 40px;
-    background-color: #222f3d;
+    background-color: #202122;
     display: flex;
     color: white;
     align-items: center;
@@ -133,9 +134,9 @@ display: inline;
 
 }
 .hero-msg{
-    background-color: white;
+    background-color: rgb(20, 17, 17);
     height: 40px;
-    color: black;
+    color: rgb(243, 230, 230);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,18 +145,21 @@ display: inline;
     
 }
 .hero-msg a{
-    color: #007185;
+    color: #1f626d;
 }
 .box{
-    background-color: #ffffff;
-    height: 380px;
+    background-color: #0d0d0d;
+    height: 350px;
     border: 2px solid black;
     width: 23%;
     padding: 20px 0px 15px;
     margin-top: 15px;
 }
+.box h2{
+    color: white;
+}
 .shop-section{
-    background-color: rgb(230, 201, 29);
+    background-color: rgb(27, 27, 22);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -179,7 +183,7 @@ footer {
     margin-top: 15px;
 }
 .foot-pannel1{
-    background-color: #37475b;
+    background-color: #202122;
     color: white;
     justify-content: center;
     display: flex;
@@ -189,14 +193,15 @@ footer {
 
 }
 .foot-pannel2{
-    background-color:  #161e28;
+    background-color:  #0e1114;
     color: white;
     height: 200px;
     display: flex;
     justify-content: space-evenly;
 }
 ul{
-    margin-top:20px; ;
+    margin-top:20px; 
+    
 }
 ul a{
     display: block;
