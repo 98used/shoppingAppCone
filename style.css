@@ -130,7 +130,11 @@ display: inline;
     background-size: cover;
     padding-bottom: 100px;
     justify-content: center;
+   align-items: center;
    
+}
+.hero-section img{
+    max-height:100%; max-width:100%;
 
 }
 .hero-msg{
@@ -193,7 +197,7 @@ footer {
 
 }
 .foot-pannel2{
-    background-color:  #0e1114;
+    background-color:  #1b1b16;
     color: white;
     height: 200px;
     display: flex;
@@ -224,6 +228,23 @@ ul a{
     height: 50px;
     width: 100px;
 }
+.name{
+    background-color: black;
+    margin-left: 5px;
+    padding-left: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width: 80px;
+    border-radius: 5%;
+}
+.name p{
+    padding-left: 10px;
+    background-color: black;
+}
+
 .foot-pannel4{
     background-color: #0f1111;
     color: white;
