@@ -24,8 +24,9 @@ width: 100px;
     width: 100%;
     
 }
-.border{
+.xyz{
     border: 1px solid transparent;
+    background-color: black;
 }
 .border:hover{
     border: 1px solid white;
@@ -51,7 +52,7 @@ font-size: 1rem;
 .nav-search{
 display: flex;
 justify-content: space-evenly;
-background-color: green;
+/* background-color: green; */
 width: 620px;
 height: 40px;
 border-radius: 5px;
@@ -69,6 +70,7 @@ border-radius: 5px;
     width: 100%;
     font-size: 1rem;
     border: none;
+    color: white;
 }
 .search-icon{
     width: 45px;
@@ -76,7 +78,7 @@ border-radius: 5px;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    background-color: #0d0e0e;
+    background-color: #000000;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     color:#e8e8e8;
@@ -112,16 +114,22 @@ font-size: 0.7rem;
 }
 .pannel-ops p{
 display: inline;
+padding-left: 20px;
+padding-right: 20px;
+justify-content: space-evenly;
+background-color:#202122;
 }
 .pannel-ops{
     width: 70%;
     font-size: 14px;
    margin-left: 15px;
+   background-color:#202122;
    
 }
 .pannel-deals{
     font-size: 16px;
     font-weight: 700;
+    background-color:#202122;
 }
 /* hero */
 .hero-section{
